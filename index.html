@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Color Palette Generator</h1>
+
+      <div class="form">
+        <form action="" method="get">
+          <div class="form-wrapper">
+            <div class="input-content">
+              <label for="color">Pick a color</label>
+              <div id="swatch">
+                <input
+                  type="color"
+                  id="colorSelected"
+                  name="color"
+                  value="#0000"
+                />
+              </div>
+            </div>
+
+            <div class="select-content">
+              <label for="mode">Choose a mode:</label>
+
+              <div class="select">
+                <select name="mode" id="mode">
+                  <option value="">-Please choose an option-</option>
+                  <option value="monochrome">Monochrome</option>
+                  <option value="monochrome-dark">Monochrome-dark</option>
+                  <option value="monochrome-light">Monochrome-light</option>
+                  <option value="analogic">analogic</option>
+                  <option value="complement">complement</option>
+                  <option value="analogic-complement">
+                    analogic-complement
+                  </option>
+                  <option value="triad">triad</option>
+                  <option value="quad">quad</option>
+                </select>
+                <span class="focus"></span>
+              </div>
+            </div>
+          </div>
+
+          <button id="submitButton" class="submitButton" type="submit">
+            generate
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div id="container" class="palette"></div>
+        <div id="title"></div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
