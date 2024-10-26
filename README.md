@@ -1,4 +1,4 @@
-# Color PAlETTE GENERATOR
+# Color Palette Generator
 
 <div align="center"><img width="400" alt="Capture d’écran 2024-10-25 à 13 35 23" src="https://github.com/user-attachments/assets/7ebbcfb2-4878-4c5f-9f4a-2ba4aa08cf21">
 
